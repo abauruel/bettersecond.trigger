@@ -20,7 +20,7 @@ unsigned long lastBlinkTime = 0;
 bool ledState = false;
 unsigned long blinkIntervalConnected = 1000;     // 1 segundo
 unsigned long blinkIntervalDisconnected = 200;   // 0.2 segundo
-String postUrl = "http://10.42.0.1:5000/record"; // Altere para o destino correto
+String postUrl = "http://10.42.0.1:5000/record/cam1"; // Altere para o destino correto
 
 void setup()
 {
